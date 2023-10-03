@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml>
+    
+ 
+ <category>
+      <pattern>hello</pattern>
+      <template> 
+      <random>
+                  <li>Hello</li>
+                  <li>How can I help you today?</li>
+                  <li>Hello Welcome to the Health and Exercise Chatbot. How can I help you?</li>
+                  <li>Hello isn't it a lovely day? How can I help you?</li>
+                  </random>
+                  </template>
+  </category>
+
+  <category>
+     <pattern>I want to exercise</pattern>
+     <template>
+        Of course! To increase your physical activity, I would like to suggest exercises that are suitable for your daily life. 
+        Can you share what kind of exercises you are interested in or what goals you have (e.g. losing weight, building muscle, gaining flexibility, etc.)?
+     </template>
+</category>
+
+<category>
+    <pattern>I want to lose weight</pattern>
+    <template>
+        <b>Great!</b> Here are some exercise recommendations:<br></br>
+             <b>Walking:</b> 30 minutes of brisk walking a day can boost your metabolism.<br></br>
+             <b>Running:</b> If you want to start running, you can take a look at beginner running programmes.<br></br>
+             <b>Yoga:</b> Yoga can increase body flexibility and reduce stress.<br></br>
+             <b>Exercise Videos:</b> There are many free exercise videos on YouTube for exercising at home.
+    </template>
+</category>
+
+<category>
+    <pattern>I want to build muscle</pattern>
+    <template>
+             <b>Bench Press:</b> Targets your chest muscles. You can use barbells or dumbbells.<br></br>
+             <b>Deadlift:</b> It works the waist, back and leg muscles. It should be done carefully.<br></br>
+             <b>Squat:</b> Strengthens your leg muscles. You can do it with a weight bar or dumbbell.<br></br>
+             <b>Pull-Up:</b> Exercises the back and arm muscles. You can do it using your body weight.
+    </template>
+</category>
+
+<category>
+    <pattern>I want to gain flexibility</pattern>
+    <template>
+        
+             <b>Dancing:</b> Dancing can increase body flexibility and help you stretch in a fun way.<br></br>
+             <b>Pilates:</b> Pilates can help with body balancing, muscle strength and flexibility<br></br>
+             <b>Foam Roller Use:</b> You can provide relaxation and stretching in the muscles with a foam roller. It is especially useful for those who experience muscle tension.
+             
+    </template>
+</category>
+
+
+<category>
+     <pattern>How often should i exercise</pattern>
+     <template>
+         4-5 days a week
+     </template>
+</category>
+
+<category>
+     <pattern>What should i do about nutrition</pattern>
+     <template>
+        Nutrition is an important part of the muscle building process. Adequate protein intake supports muscle growth. At the same time, sufficient carbohydrates and healthy fats provide energy. It is also important to drink plenty of water.
+     </template>
+</category>
+
+              
+<category>
+     <pattern>Thank you</pattern>
+     <template>
+         You're welcome! Do not hesitate to ask if you have any other questions. I wish you success!
+     </template>
+</category>
+
+
+</aiml>
